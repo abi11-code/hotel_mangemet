@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(71, 66, 66);
+    color: bisque;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 50px;
+}
+.logo{
+    font-size: 25px;
+    font-weight: bolder;
+}
+.navbar{
+    color: bisque;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+.navButten ul{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 20px;
+   list-style: none;
+
+}
+a{
+    text-decoration: none;
+    color: bisque;
+}
+.hero{
+    margin: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+.heroleft{
+    
+}
+
+.heroright{
+    width: 20px;
+    height: 20px;
+}
+.heroright img{
+    width: fit-content;
+    height: fit-content;
+}
