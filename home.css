@@ -121,3 +121,15 @@ a{
 .aboutUS{
     padding: 60px 50px;
 }
+.footerSection{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.hours{
+    padding: 15px;
+}
+.hours td{
+    padding: 9px;
+    border-bottom: solid rgb(43, 1, 1) 0.5px;
+}
