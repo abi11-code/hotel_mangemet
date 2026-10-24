@@ -110,28 +110,31 @@ a{
     font-size: 20px;
 }
 #coffeeImg{
-    background-image: url("image/coffee.jpg");
+    background-image: linear-gradient(rgba(31,3,58,0.5),rgba(92,76,76,0.4)),url("image/coffee.jpg");
     width: 400px;
     height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    border-radius: 120px 120px 120px 120px;
 }
 #juicesImg{
-    background-image: url("image/ju.jpg");
+    background-image:linear-gradient(rgba(31,3,58,0.5),rgba(92,76,76,0.4)),url("image/ju.jpg");
     width: 400px;
     height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    border-radius: 120px 120px 120px 120px;
 }
 #cakeImg{
-    background-image: url("image/food.jpg");
+    background-image: linear-gradient(rgba(31,3,58,0.5),rgba(92,76,76,0.4)),url("image/food.jpg");
     width: 400px;
     height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    border-radius: 120px 120px 120px 120px;
 }
 .footerSection{
     display: flex;
