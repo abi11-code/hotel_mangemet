@@ -199,3 +199,64 @@ span{
     font-family: 'Courier New', Courier, monospace;
     font-size: 17px;
 }
+@media(max-width:450px){
+    body{
+    background-attachment: fixed;
+        
+    }
+    .heroUp{
+        padding-left: 0px;
+    }
+    .ticket{
+        margin: 7px;
+    }
+    .descr{
+        padding-top: 160px;
+    }
+    .img1{
+        /* width: 350px; */
+    padding-left:0px ;
+    }
+    .side{
+        width: 300px;
+    }
+    #pool{
+         width: 300px;
+        height: 300px;
+        border-radius: 100px 100px 100px 100px;
+    }
+    #PC{
+        order: 2;
+        width: 300px;
+        height: 300px;
+        border-radius: 100px 100px 100px 100px;
+    }
+    #bowling{
+        width: 300px;
+        height: 300px;
+        border-radius: 100px 100px 100px 100px;
+    }
+    #laser{
+        order: 2;
+        width: 300px;
+        height: 300px;
+        border-radius: 100px 100px 100px 100px;
+    }
+    #PS{
+        width: 300px;
+        height: 300px;
+        border-radius: 100px 100px 100px 100px;
+    }
+    #tennis{
+        order: 2;
+        width: 300px;
+        height: 300px;
+        border-radius: 100px 100px 100px 100px;
+    }
+    #board{
+         width: 300px;
+        height: 300px;
+        border-radius: 100px 100px 100px 100px;
+    }
+
+}

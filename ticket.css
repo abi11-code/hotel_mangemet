@@ -109,3 +109,8 @@ button:hover{
     padding: 9px;
     border-bottom: solid rgb(43, 1, 1) 0.5px;
 }
+@media(max-width:450){
+   .buy-ticket{
+        
+    }
+}

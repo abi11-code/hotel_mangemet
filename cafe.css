@@ -95,6 +95,7 @@ a{
 }
 .side{
     align-items: center;
+    flex-wrap: wrap;
     width: 900px;
     padding:70px;
 
@@ -126,6 +127,7 @@ a{
     background-size: cover;
     background-position: center;
     border-radius: 120px 120px 120px 120px;
+    order: 2;
 }
 #cakeImg{
     background-image: linear-gradient(rgba(31,3,58,0.5),rgba(92,76,76,0.4)),url("image/food.jpg");
@@ -149,4 +151,50 @@ a{
 .hours td{
     padding: 9px;
     border-bottom: solid rgb(43, 1, 1) 0.5px;
+}
+@media(max-width:450px){
+    body{
+    background-image: linear-gradient(rgba(31,3,58,05),rgba(31,3,58,0.5)),url("image/28859303-e313-4734-ae09-4d7b20b70004.jpg");
+    background-color:  rgb(54, 15, 15);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color:  rgb(197, 193, 190);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 20px;
+    margin-left: 20px;
+    
+}   
+.hero{
+    padding-left: 20px;
+}
+.img1{
+    gap: 40px;
+}
+.descr{
+    padding-top: 50px;
+}
+.side{
+    width: 300px;
+    padding:0px ;
+    padding-left: 0px;
+    /* margin-left:px ; */
+
+}
+#coffeeImg{
+    width: 300px;
+    height: 300px;
+    border-radius: 100px 100px 100px 100px;
+}
+#juicesImg{
+    width: 300px;
+    height: 300px;
+    border-radius: 100px 100px 100px 100px;
+}
+#cakeImg{
+      width: 300px;
+    height: 300px;
+    border-radius: 100px 100px 100px 100px;
+}
 }

@@ -135,3 +135,18 @@ a{
     padding: 9px;
     border-bottom: solid rgb(43, 1, 1) 0.5px;
 }
+@media(max-width:400px){
+ .ticket{
+    margin: 7px;
+    padding: ;
+ }   
+ .heroButtan{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    
+ }
+
+}
